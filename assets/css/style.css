@@ -5,7 +5,7 @@ body, html {
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
-.bar {
+.div {
     background-color: #f9f9fb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
@@ -35,4 +35,53 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}
+.main {
+    padding: 1rem 0;
+    text-align: center;
+    text-indent: 0%;
+}
+.bar {
+    height: 4px;
+    background-color: #000;
+    margin-bottom: 1rem;
+    width: 50px;}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+main  {
+    top: auto;
+    text-align: center;
+    text-indent: 5%;
+    width: 80%; /* Ou um valor fixo, ex: 960px */
+    margin-left: auto;
+    margin-right: auto;
+  /* Ou o atalho: margin: 0 auto; */
+    display: block; /* O padrão para main, mas bom para garantir */
+   
+}
+
+section {
+    border: solid 1px #cdcdcd;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    text-decoration: dashed;
+}
+
+section, aside {
+    border: solid 1px #cdcdcd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
 }
